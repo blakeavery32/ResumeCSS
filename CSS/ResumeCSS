@@ -1,0 +1,32 @@
+/* Resume Style Sheet */
+
+div{
+  line-height: 25%;
+}
+
+h1, h2, p.email{
+  text-align: center;
+}
+
+p span{
+  display:block;
+  float:right;
+}
+
+h3 span{
+  display:block;
+  float:right;
+}
+
+a:link{
+	text-decoration: none;
+	color:green;
+}
+
+a:hover{
+	color:blue;
+}
+
+a:visited{
+	color:red;
+}
