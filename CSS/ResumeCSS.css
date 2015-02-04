@@ -1,4 +1,10 @@
 /* Resume Style Sheet */
+body{
+  background-image:url("http://brand.wustl.edu/download-artwork/symbols/Interlocking-WUSTL/interlocking-WUSTL-open.jpg");
+  background-repeat:no-repeat;
+  background-position: 50% 7%;
+  background-size: 7%;
+}
 
 div{
   line-height: 25%;
