@@ -1,4 +1,7 @@
 /* Resume Style Sheet */
+
+/* Place WUSTL Logo in the background of Resume */
+
 body{
   background-image:url("http://brand.wustl.edu/download-artwork/symbols/Interlocking-WUSTL/interlocking-WUSTL-open.jpg");
   background-repeat:no-repeat;
@@ -6,32 +9,52 @@ body{
   background-size: 7%;
 }
 
+/* Reduce spacing between lines in each section */
+
 div{
   line-height: 25%;
 }
 
+/* Center name, section headers, and email address */
+
 h1, h2, p.email{
   text-align: center;
 }
+
+/* Split current address and permanent address */
 
 p span{
   display:block;
   float:right;
 }
 
+/* Bold all position titles within companies/organizations */
+
+p.title{
+  font-weight:bold;
+}
+
+/* Split company/organization worked for from dates worked */
+
 h3 span{
   display:block;
   float:right;
 }
+
+/* Turn unvisited links green */
 
 a:link{
 	text-decoration: none;
 	color:green;
 }
 
+/* Turn links blue when they are hovered over */
+
 a:hover{
 	color:blue;
 }
+
+/* Turn visited links red */
 
 a:visited{
 	color:red;
